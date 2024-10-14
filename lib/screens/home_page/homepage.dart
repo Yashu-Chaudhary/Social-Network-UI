@@ -4,6 +4,7 @@ import 'package:flutter/widgets.dart';
 import 'package:socail_network/utils/common/interests_container.dart';
 import 'package:socail_network/utils/common/three_dots_background.dart';
 import 'package:socail_network/utils/constants/color_constants.dart';
+import 'package:socail_network/utils/constants/image_strings.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
@@ -39,8 +40,8 @@ class HomePage extends StatelessWidget {
                   CircleAvatar(
                     radius: 45,
                     child: Image(
-                      image: NetworkImage(
-                        'https://cdn-icons-png.flaticon.com/128/3135/3135715.png',
+                      image: AssetImage(
+                        PImages.profile,
                       ),
                     ),
                   ),

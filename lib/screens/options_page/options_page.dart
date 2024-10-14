@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:socail_network/screens/home_page/homePage.dart';
+import 'package:socail_network/screens/my_subscribers/my_subscribers.dart';
 import 'package:socail_network/utils/common/verticl_nav_tile.dart';
 import 'package:socail_network/utils/constants/color_constants.dart';
+import 'package:socail_network/utils/constants/image_strings.dart';
 
 class OptionsPage extends StatelessWidget {
   const OptionsPage({super.key});
@@ -27,8 +29,8 @@ class OptionsPage extends StatelessWidget {
                   CircleAvatar(
                     radius: 50,
                     child: Image(
-                      image: NetworkImage(
-                          'https://cdn-icons-png.flaticon.com/128/3135/3135715.png'),
+                      image: AssetImage(
+                          PImages.profile),
                     ),
                   ),
                   Text(
@@ -51,6 +53,7 @@ class OptionsPage extends StatelessWidget {
                   VerticalNavTile(
                     icon: Icons.people,
                     text: 'MY SUBSCRIBERS',
+                    nextScreen: MySubscribers(),
                   ),
                   VerticalNavTile(
                     icon: Icons.settings,
