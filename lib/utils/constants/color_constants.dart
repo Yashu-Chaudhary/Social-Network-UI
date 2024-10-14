@@ -7,7 +7,7 @@ class PColors {
   static const Color yellow = Color(0xfffcd669);
   static const Color milkWhite = Color(0xfffeffff);
   static const Color inputBoxColor = Color(0xfff0f5f8);
-  static const Color greyIcon = Color(0xffcee9e2);
+  static const Color greyIcon = Colors.grey;
   static LinearGradient primaryGradient =
       const LinearGradient(colors: [Color(0xff13aab3), Color(0xff1ccdc5)]);
   // static const Color primary = Color(0xff);

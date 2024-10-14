@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
+import 'package:socail_network/bottom_navbar/bottom_navbar.dart';
 import 'package:socail_network/utils/constants/color_constants.dart';
 import 'package:socail_network/utils/constants/string_constants.dart';
 
@@ -31,7 +31,10 @@ class OnBoardingScreen extends StatelessWidget {
               ElevatedButton(
                 style:
                     ElevatedButton.styleFrom(backgroundColor: PColors.yellow),
-                onPressed: () {},
+                onPressed: () {
+                  Navigator.push(
+                      context, MaterialPageRoute(builder: (context) =>const BottomNavigatationBar()));
+                },
                 child: const Padding(
                   padding: EdgeInsets.all(12.0),
                   child: Text(
