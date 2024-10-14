@@ -8,8 +8,11 @@ class PColors {
   static const Color milkWhite = Color(0xfffeffff);
   static const Color inputBoxColor = Color(0xfff0f5f8);
   static const Color greyIcon = Colors.grey;
-  static LinearGradient primaryGradient =
-      const LinearGradient(colors: [Color(0xff13aab3), Color(0xff1ccdc5)]);
+  static LinearGradient primaryGradient = const LinearGradient(
+    colors: [Color(0xff13aab3), Color(0xff1ccdc5)],
+    begin: Alignment.topRight,
+    end: Alignment.bottomLeft
+  );
   // static const Color primary = Color(0xff);
   // static const Color primary = Color(0xff);
 }
