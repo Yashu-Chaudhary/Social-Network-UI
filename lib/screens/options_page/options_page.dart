@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 import 'package:socail_network/screens/home_page/homePage.dart';
 import 'package:socail_network/utils/common/verticl_nav_tile.dart';
 import 'package:socail_network/utils/constants/color_constants.dart';
