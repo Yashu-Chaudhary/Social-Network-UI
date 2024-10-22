@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:socail_network/bottom_navbar/bottom_navbar.dart';
+import 'package:socail_network/screens/authentication/signup.dart';
 import 'package:socail_network/utils/constants/color_constants.dart';
 import 'package:socail_network/utils/constants/string_constants.dart';
 
@@ -33,7 +34,9 @@ class OnBoardingScreen extends StatelessWidget {
                     ElevatedButton.styleFrom(backgroundColor: PColors.yellow),
                 onPressed: () {
                   Navigator.push(
-                      context, MaterialPageRoute(builder: (context) =>const BottomNavigatationBar()));
+                      context,
+                      MaterialPageRoute(
+                          builder: (context) => const BottomNavigatationBar()));
                 },
                 child: const Padding(
                   padding: EdgeInsets.all(12.0),
@@ -48,7 +51,9 @@ class OnBoardingScreen extends StatelessWidget {
               ),
               const SizedBox(height: 20),
               GestureDetector(
-                onTap: () {},
+                onTap: () {
+                  Navigator.push(context, MaterialPageRoute(builder: (context)=> const SignUpPage()));
+                },
                 child: const Text(
                   PTexts.dontHaveAnAccount,
                   style: TextStyle(

@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 import 'package:socail_network/utils/constants/color_constants.dart';
 
 class UpperRoundedContainer extends StatelessWidget {

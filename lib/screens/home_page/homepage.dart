@@ -1,6 +1,4 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 import 'package:socail_network/utils/common/interests_container.dart';
 import 'package:socail_network/utils/common/three_dots_background.dart';
 import 'package:socail_network/utils/constants/color_constants.dart';
