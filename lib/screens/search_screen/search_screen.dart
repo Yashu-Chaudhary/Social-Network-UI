@@ -1,8 +1,5 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 import 'package:socail_network/utils/common/circular_heading_with_body_text.dart';
-import 'package:socail_network/utils/common/two_cirecle_background.dart';
 import 'package:socail_network/utils/constants/color_constants.dart';
 
 class SearchPage extends StatelessWidget {
